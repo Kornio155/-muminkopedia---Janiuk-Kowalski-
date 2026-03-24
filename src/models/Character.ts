@@ -6,7 +6,7 @@ export interface Character extends Document {
     imie: string;
     opis: string;
     gatunek: string;
-    status: string;
+    czySpi: string;
     najlepszyPrzyj: string;
 }
 
@@ -15,7 +15,7 @@ const CharacterSchema = new mongoose.Schema({
     imie: {imie: String, required: true},
     opis: {opis: String, required: true},
     gatunek: {gatunek: String, required: true},
-    status: {status: String, required: true},
+    czySpi: {czySpi: String, required: true},
     najlepszyPrzyj: {najlepszyPrzyj: String, required: true},
 })
 
