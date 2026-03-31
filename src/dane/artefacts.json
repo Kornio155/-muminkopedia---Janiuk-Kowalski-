@@ -1,0 +1,52 @@
+[
+  {
+    "wlascicielId": 1,
+    "nazwaArtefaktu": "Gitara elektryczna",
+    "wlasciwosc": "Wywołuje krótkie fale dźwiękowe, które dezorientują przeciwników."
+  },{
+  "wlascicielId": 1,
+  "nazwaArtefaktu": "Nanowłókna",
+  "wlasciwosc": "Zwiększają refleks i precyzję strzałów, pozwalają na krótkie przyspieszenie ruchu."
+},{
+  "wlascicielId": 2,
+  "nazwaArtefaktu": "Miecz stalowy",
+  "wlasciwosc": "Zwiększa siłę uderzenia w walce z ludźmi, lekko spowalnia czas w krytycznych momentach."
+},{
+  "wlascicielId": 2,
+  "nazwaArtefaktu": "Miecz srebrny",
+  "wlasciwosc": "Zadaje dodatkowe obrażenia potworom, może wykrywać niewidzialne istoty."
+},{
+  "wlascicielId": 3,
+  "nazwaArtefaktu": "Smartgun",
+  "wlasciwosc": "Celuje automatycznie w słabe punkty wrogów."
+},{
+  "wlascicielId": 3,
+  "nazwaArtefaktu": "Cyberwszczepy",
+  "wlasciwosc": "Zwiększają siłę, refleks i odporność na obrażenia, pozwalają na krótkotrwałą niewidzialność w cieniach."
+},{
+  "wlascicielId": 4,
+  "nazwaArtefaktu": "Lutnia",
+  "wlasciwosc": "Potrafi hipnotyzować lub uspokajać ludzi i zwierzęta."
+},{
+  "wlascicielId": 4,
+  "nazwaArtefaktu": "Pióro i dziennik",
+  "wlasciwosc": "Jego ballady potrafią wzmacniać morale sojuszników i chwilowo osłabiać wrogów."
+},{
+  "wlascicielId": 5,
+  "nazwaArtefaktu": "Topór bojowy",
+  "wlasciwosc": "Zadaje dodatkowe obrażenia i ma szansę ogłuszyć przeciwnika."
+},{
+  "wlascicielId": 5,
+  "nazwaArtefaktu": "Kufel piwa",
+  "wlasciwosc": "Po wypiciu daje chwilową regenerację sił i zwiększa odporność na strach lub panikę."
+},{
+  "wlascicielId": 6,
+  "nazwaArtefaktu": "Deck braindance",
+  "wlasciwosc": "Pozwala na manipulowanie emocjami lub wspomnieniami w VR, może zdezorientować wrogów."
+},{
+  "wlascicielId": 6,
+  "nazwaArtefaktu": "Cyberpistolet",
+  "wlasciwosc": "Przy każdym trafieniu zwiększa tempo reakcji, a czasem ignoruje pancerz przeciwnika."
+}
+]
+

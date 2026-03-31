@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Johny Silverhand",
+    "opis": "buntowniczy rocker i terrorysta cyfrowy, który walczył przeciwko korporacjom i stał się legendą Night City.",
+    "gatunek": "Człowiek",
+    "czySpi": "Nie",
+    "najlepszyPrzyj": "V"
+
+  },{
+  "id": 2,
+  "name": "Geralt z Rivii",
+  "opis": "zmutowany łowca potworów, który przemierza świat, rozwiązując problemy ludzi i potworów, często balansując między moralnością a zleceniem.",
+  "gatunek": "Mutant",
+  "czySpi": "Tak",
+  "najlepszyPrzyj": "Jaskier"
+
+},{
+  "id": 3,
+  "name": "V",
+  "opis": "najemnik z Night City, który próbuje przetrwać w świecie pełnym technologii, przemocy i korporacyjnych intryg.",
+  "gatunek": "Cyborg",
+  "czySpi": "Nie",
+  "najlepszyPrzyj": "Johny Silverhand"
+
+},{
+  "id": 4,
+  "name": "Jaskier",
+  "opis": "charyzmatyczny bard i wierny towarzysz Geralta, znany z talentu muzycznego i skłonności do pakowania się w kłopoty.",
+  "gatunek": "Człowiek",
+  "czySpi": "Tak",
+  "najlepszyPrzyj": "Geralt z Rivii"
+
+},{
+  "id": 5,
+  "name": "Zoltan Chivay",
+  "opis": "krasnoludzki wojownik o twardym charakterze, lojalny przyjaciel Geralta i miłośnik dobrej bitki oraz trunków.",
+  "gatunek": "Krasnolud",
+  "czySpi": "Nie",
+  "najlepszyPrzyj": "Geralt z Rivii"
+
+},{
+  "id": 6,
+  "name": "Judy Alvarez",
+  "opis": "utalentowana techniczka braindance’ów, która walczy o wolność i godność ludzi wykorzystywanych przez system.",
+  "gatunek": "Cyborg",
+  "czySpi": "Tak",
+  "najlepszyPrzyj": "V"
+
+}
+]
