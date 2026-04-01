@@ -11,12 +11,12 @@ export interface Character extends Document {
 }
 
 const CharacterSchema = new mongoose.Schema({
-    id: {id: Number, required: true},
-    imie: {imie: String, required: true},
-    opis: {opis: String, required: true},
-    gatunek: {gatunek: String, required: true},
-    czySpi: {czySpi: String, required: true},
-    najlepszyPrzyj: {najlepszyPrzyj: Number, required: true},
+    id: {type: Number, required: true},
+    imie: {type: String, required: true},
+    opis: {type: String, required: true},
+    gatunek: {type: String, required: true},
+    czySpi: {type: String, required: true},
+    najlepszyPrzyj: {type: Number, required: true},
 })
 
 export default mongoose.model<Character>('Character', CharacterSchema);

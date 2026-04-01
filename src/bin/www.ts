@@ -6,7 +6,7 @@ import connectDB from '../config/db';
 
 const debugLog = debug("express-ts-mongodb:server");
 
-const port = normalizePort(process.env.PORT || '3000');
+const port = normalizePort(process.env.PORT || '5001');
 app.set('port', port);
 
 const server = http.createServer(app);
