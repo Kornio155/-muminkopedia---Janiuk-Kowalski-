@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:5001
+
+
+### GET request to example server
+GET {{baseUrl}}
+Content-Type: application/json
+###
+
+
+### GET request to example server
+GET {{baseUrl}}/muminki
+
+
+
