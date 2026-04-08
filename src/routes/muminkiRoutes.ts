@@ -2,28 +2,10 @@
 
 import express, {Request, Response} from "express";
 import TaskModel , {Character} from "../models/Character";
+import {getAllCharacters} from "../repositories/characters.repository";
 
-const router = express.Router();
+const characterRouter = express.Router();
 
-router.get("/", async (req: Request, res: Response) => {
-    try{
-        const tasks: Array<Character> = await TaskModel.find();
-        res.json(tasks);
-    } catch(err){
-        res.status(500).json({error: `Nie udało się pobrać zadań ${err}`});
-    }
-})
+characterRouter.get("/", getAllCharacters);
 
-router.post("/k", async(req: Request, res: Response) => {
-    try{
-        const {title, description} = req.body;
-        const newTask: Character | null = new TaskModel({title, description});
-        await newTask.save();
-        res.status(201).json({message: `Dodano nowe zadanie: ${newTask}`});
-
-    }catch(err){
-        res.status(500).json({error: "Nie udało się dodać zadania ", err});
-    }
-})
-
-export default router;
+export default characterRouter;
