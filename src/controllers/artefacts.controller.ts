@@ -1,4 +1,3 @@
-import artefacts, {Artefact} from "../models/Artefacts";
 import {Request, Response} from "express";
 import {addArtefact, fetchArtefacts} from "../services/artefacts.service";
 
