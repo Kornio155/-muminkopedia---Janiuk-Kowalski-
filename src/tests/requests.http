@@ -9,8 +9,19 @@ Content-Type: application/json
 
 ### GET request to example server
 GET {{baseUrl}}/characters
+Content-Type: application/json
 
 
 ###GET na artefakty
 GET {{baseUrl}}/artefacts
+Content-Type: application/json
 
+###post
+POST {{baseUrl}}/artefacts
+Content-Type: application/json
+
+{
+  "wlascicielId": 4,
+  "nazwaArtefaktu": "Test task",
+  "wlasciwosc": "To jest testowe zadanie"
+}
