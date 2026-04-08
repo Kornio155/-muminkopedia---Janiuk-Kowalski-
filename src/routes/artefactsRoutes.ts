@@ -1,23 +1,23 @@
 
 
 import express, {Request, Response} from "express";
-import TaskModel , {Character} from "../models/Character";
+import TaskModel , {Artefact} from "../models/Artefacts";
 
 const router = express.Router();
 
 router.get("/", async (req: Request, res: Response) => {
     try{
-        const tasks: Array<Character> = await TaskModel.find();
+        const tasks: Array<Artefact> = await TaskModel.find();
         res.json(tasks);
     } catch(err){
         res.status(500).json({error: `Nie udało się pobrać zadań ${err}`});
     }
 })
 
-router.post("/k", async(req: Request, res: Response) => {
+router.post("/", async(req: Request, res: Response) => {
     try{
         const {title, description} = req.body;
-        const newTask: Character | null = new TaskModel({title, description});
+        const newTask: Artefact | null = new TaskModel({title, description});
         await newTask.save();
         res.status(201).json({message: `Dodano nowe zadanie: ${newTask}`});
 
