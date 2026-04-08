@@ -8,7 +8,9 @@ Content-Type: application/json
 
 
 ### GET request to example server
-GET {{baseUrl}}/muminki
+GET {{baseUrl}}/characters
 
 
+###GET na artefakty
+GET {{baseUrl}}/artefacts
 
