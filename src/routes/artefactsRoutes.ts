@@ -16,8 +16,8 @@ router.get("/", async (req: Request, res: Response) => {
 
 router.post("/", async(req: Request, res: Response) => {
     try{
-        const {title, description} = req.body;
-        const newTask: Artefact | null = new TaskModel({title, description});
+        const {wlascicielId, nazwaArtefaktu, wlasciwosc} = req.body;
+        const newTask: Artefact | null = new TaskModel({wlascicielId ,nazwaArtefaktu, wlasciwosc});
         await newTask.save();
         res.status(201).json({message: `Dodano nowe zadanie: ${newTask}`});
 
